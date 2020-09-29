@@ -1,0 +1,76 @@
+.container-sub-edit {
+  margin: 0 auto;
+  max-width: 1135px;
+  width: 100%;
+}
+
+.options-container {
+  background-color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.1), 0 3px 14px 2px rgba(0, 0, 0, 0.1), 0 5px 5px -3px rgba(0, 0, 0, 0.1);
+  max-height: 240px;
+  max-width: 315px;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+}
+
+.option {
+  height: 50px;
+  padding: 0 25px;
+}
+
+.quantity-input {
+  border: 1px solid #8D8D8D;
+  border-radius: 2px;
+  height: 30px;
+  text-align: center;
+  width: 40px;
+}
+
+.selector-container {
+  max-width: 315px;
+}
+
+.selector-toggle {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  height: 55px;
+  padding: 0 16px;
+  position: relative;
+}
+.selector-toggle.rotate .icon {
+  transform: rotate(180deg);
+}
+.selector-toggle.active {
+  background-color: #E3E8EB;
+}
+
+.toggle-card {
+  position: absolute;
+  right: 55px;
+}
+
+.card-container {
+  background-color: #FFF;
+  border: 2px solid #F5F6FB;
+  border-radius: 8px;
+  max-width: 1040px;
+  padding: 55px 0;
+  position: relative;
+}
+
+.inner-container {
+  max-width: 655px;
+  width: 100%;
+}
+
+.button-container {
+  max-width: 1040px;
+  width: 100%;
+}
+
+.border-none {
+  border: none;
+  background: none;
+}
